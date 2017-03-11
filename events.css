@@ -1,3 +1,33 @@
-h1.hover{
-	
+.colorMe {
+	color: blue;
+}
+
+.hulk {
+	font-size:  40px;
+}
+
+.border{
+	border: 1px solid blue;
+}
+
+.rounded {
+	border: 1px solid blue;
+	border-radius: 50px;
+}
+
+/*The first section's text should be bold.*/
+
+article > section:first-child {
+	font-weight: bold;
+}
+
+/*The last section's text should be bold and italicized.*/
+article > section:last-child {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+button {
+	display: block;
 }
